@@ -1,0 +1,1 @@
+avrdude -C/etc/avrdude.conf -v -v -v -v -patmega328p -carduino -P/dev/ttyS3 -b115200 -D -Uflash:w:uno.hex:i
